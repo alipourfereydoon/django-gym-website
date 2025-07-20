@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
   <head>
@@ -10,7 +11,7 @@
       integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../../style/style.css" />
+    <link rel="stylesheet" href="{% static 'style/style.css' %}" />
     <link
       href="https://db.onlinewebfonts.com/c/41e49eab42867016423011dccc96c22a?family=YekanBakh-Bold"
       rel="stylesheet"
@@ -153,7 +154,7 @@
           </button>
         </div>
         <div class="text-end">
-          <a href="../../index.html" class="btn btn-outline-danger fs-6">بازگشت</a>
+          <a href="" class="btn btn-outline-danger fs-6">بازگشت</a>
         </div>
       </form>
     </div>
@@ -163,6 +164,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <script src="java.js"></script>
+    <script src="{% static 'js/java.js' %}"></script>
   </body>
 </html>
