@@ -205,30 +205,18 @@
       </div>
       <!-- end of title -->
       <div class="row">
+        {% for item in service %}
         <div class="col-lg-4 col-sm-6 my-5">
           <div class="card border-0 card-shadow">
-            <img src="{% static 'images/b1.jpg' %}" class="rounded">
+            <img src="{{item.image.url}}" class="rounded">
             <div class="card-img-overlay">
-              <h5 class="text-white heading p-2">برنامه تمرینی</h5>
+              <a href="" class="text-white heading p-2"> {{item.title}}</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 my-5">
-          <div class="card border-0 card-shadow">
-            <img src="{% static 'images/b2.jpg' %}" class="rounded">
-            <div class="card-img-overlay">
-              <h5 class="text-white heading p-2">رژیم غذایی</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 my-5">
-          <div class="card border-0 card-shadow">
-            <img src="{% static 'images/b3.jpg' %}" class="rounded">
-            <div class="card-img-overlay">
-              <h5 class="text-white heading p-2">مربی شخصی</h5>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
+
+
       </div>
     </div>
     
