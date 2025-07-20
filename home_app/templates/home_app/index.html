@@ -1,0 +1,551 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>باشگاه تناسب اندام</title>
+    <link rel="title icon" type="image/png" href="{% static 'images/log.png' %} " />
+
+    <link rel="stylesheet" href="{% static 'style/style.css' %}" />
+    <link
+      rel="stylesheet"
+      href=" {% static 'bootstrap-project/bootstrap.rtl.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href=" {% static 'bootstrap-icons-1.11.3/font/bootstrap-icons.min.css' %}"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example text-success rounded-2" tabindex="0">
+    <!-- header  -->
+    <header id="haeder">
+      <!-- navbar  -->
+      <div class="container">
+        <nav id="navbar1" class="navbar navbar-expand-md fixed-top">
+          <div class="container">
+            <a class="navbar-brand text-light lalezar fs-4" href="#header"
+              >باشگاه <span class="oxy">تناسب اندام</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5
+                  class="offcanvas-title mx-auto text-light lalezar"
+                  id="offcanvasNavbarLabel"
+                >
+                  باشگاه <span class="oxy">تناسب اندام</span>
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav m-2 justify-content-end flex-grow-1">
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold" aria-current="page" href="{% static 'Admin-bootstrap-site/index.html' %}"
+                      >وبلاگ</a
+                    >
+                  </li>
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold active" aria-current="page" href="#banner"
+                      >خانه</a
+                    >
+                  </li>
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold" id="eftekhar" aria-current="page" href="#awards"
+                      >افتخارات</a
+                    >
+                  </li>
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold" aria-current="page" href="#services"
+                      >خدمات</a
+                    >
+                  </li>
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold" aria-current="page" href="#gallery"
+                      >گالری</a
+                    >
+                  </li>                
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold" href="#plans">پلن‌ها</a>
+                  </li>
+                  <li class="nav-item py-2 py-md-0">
+                    <a class="nav-link fw-bold" href="#contact">ارتباط با ما</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--end of navbar  -->
+
+      <!-- banner  -->
+      <div id="banner" class="row">
+        <div class="col-sm-4 col-lg-12 ">
+          <div
+            class="text-light text-center text-uppercase fw-bold text-left banner position-absolute top-50 start-50 translate-middle"
+            style="
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+                sans-serif;
+            "
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <h1 class="banner-heading">
+              <span>O</span><sub id="subb" style="color: orange;">2</sub>xygen gym
+            </h1>
+            
+            <p class="mt-3 banner-par">
+            <span class="me-3 first-span">no <span id="cap">p</span>ain</span>
+              <span>no <span id="cap">g</span>ain</span>
+            </p>
+         
+          </div>
+        </div>
+      </div>
+      <!--end of banner  -->
+    </header>
+    <!--end of header  -->
+
+    <!-- awards -->
+    <section id="awards" class="p-5 awards">
+      <div class="container-fluid">
+        <!-- title  -->
+        <div class="row text-center mb-5 justify-content-center">
+          <div class="col-xl-6 col-lg-8 col-md-10">
+            <br>
+            <h1 class="display-4 lalezar orange">افتخارات</h1>
+            <div class="underline mt-3 mb-5 border mx-auto border-2 border-warning"data-aos="zoom-in"data-aos-duration="1000"></div>
+            <p class="text-light fs-5 lh1">
+              باشگاه تناسب اندام  یکی از پرطرفدارترین و بزرگترین شبکه های باشگاهی در ایران است.ازسال 1386 با هدف ارائه خدمات تناسب اندام و ورزشی با کیفیت بالا تأسیس شده است. در حال حاضر باشگاه تناسب اندام شعب بسیاری در سرار ایران دارد
+            </p>
+          </div>
+        </div>
+        <!--end of title  -->
+
+
+        <div class="row my-5">
+          <div class="col-md-6 col-lg-4 text-center p-5">
+            <i class="fas fa-medal fa-5x text-warning"></i>
+            <h1 class="text-light h3 mt-4 mb-3">مدیریت</h1>
+            <div class="border mb-4"></div>
+            <p class="text-secondary lh-2 px-3">
+              به دلیل مدیریت قوی و تدبر بالا این باشگاه طی مدت کوتاهی هشت شعبه در تهران افتتاح کرده است که همگی امکانات و تجهیزات فوق العاده ای دارند. لاکچری ترین باشگاه بدنسازی به دلیل وجود جدید ترین دستگاه های بدنسازی، کادر حرفه ای، مربیان کاربلد و امکانات رفاهی عالی همیشه مورد توجه هنرمندان و ورزشکاران حرفه ای قرار گرفته است.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center p-5">
+            <i class="fas fa-trophy fa-5x text-secondary"></i>
+            <h1 class="text-light h3 mt-4 mb-3">مربیان</h1>
+            <div class="border mb-4"></div>
+            <p class="text-secondary lh-2 px-3">
+              صلاحیت کارکنان باشگاه بسیار مهم است! اگر از مربیان باشگاه برنامه تمرینی می‌گیرید و با مربیان تمرین می‌کنید، بسیار مهم است که یک مربی کارشناس و باتجربه داشته باشید. مربیان حاضر در باشگاه باید آگاه، قابل دسترس و مایل به پاسخگویی به هر سؤال یا نگرانی شما باشند. علاوه بر این، مطمئن شوید که مربی شما در ساعاتی که قصد تمرین دارید، در دسترس باشد.
+
+
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center p-5">
+            <i class="fas fa-award fa-5x text-danger"></i>
+            <h1 class="text-light h3 mt-4 mb-3">کیفیت</h1>
+            <div class="border mb-4"></div>
+            <p class="text-secondary lh-2 px-3">
+              فضای کلی یک باشگاه می‌تواند بر لذت و انگیزه تمرینات شما تأثیر بگذارد. به دنبال باشگاهی باشید که فضایی مثبت و حمایتی داشته باشد، با کارکنان و اعضایی که دوستانه و خوش برخورد هستند. باشگاه همچنین باید دارای فرهنگی باشد که با اهداف و ارزش‌های تناسب اندام شما همسو باشد.
+            </p>
+          </div>
+        </div>
+
+        <div class="container mt-3">
+          <div class="row gy-5 align-items-center">
+            <div
+              class="col-md-6 text-light text-center"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              <h1 class="mb-4 lalezar orange mb-4">با کیفیت‌ترین تجهیزات</h1>
+              <p class="text-center">
+                کامل بودن و به روز بودن تجهیزات باشگاه دیگر موردی است که در بزرگترین باشگاه بدنسازی تهران بدون هیچ کم و کاستی وجود دارد. به روزترین و کامل ترین پکیج ورزشی شامل انواع دستگاه تفکیک عضله، انواع دستگاه های حجم دهنده، تجهیزات تمرینات هوازی و… در سام فیت وجود دارد. این امکانات و تجهیزات به موثر بودن تمرینات کمک زیادی خواهند کرد.
+              </p>
+            </div>
+            <div class="col-md-6"
+            data-aos="flip-right"
+            data-aos-duration="1000">
+              <img
+                src="{% static 'images/awardimg.png' %}"
+              
+                class="container-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of awards -->
+  <!-- sercices  -->
+  <section id="services" class=" py-5">
+    <div class="container">
+      <!-- title -->
+      <div class="row text-center mb-5 justify-content-center">
+        <div class="col-xl-6 col-lg-8 col-md-10">
+          <br>
+          <h1 class="display-4 lalezar orange">خدمات</h1>
+          <div class="underline mt-3 mb-5 border border-warning border-2"data-aos="zoom-in"data-aos-duration="1000"></div>
+          <p class="text-light fs-5 lh1">
+             بدن سالم‌تر، قوی‌تر و متناسب‌تر یکی از مهم‌ترین دلایلی است که افراد به باشگاه می‌روند و شاید برای‌شان مهم‌ترین مزیت باشگاه هم باشد.
+          </p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="{% static 'images/b1.jpg' %}" class="rounded">
+            <div class="card-img-overlay">
+              <h5 class="text-white heading p-2">برنامه تمرینی</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="{% static 'images/b2.jpg' %}" class="rounded">
+            <div class="card-img-overlay">
+              <h5 class="text-white heading p-2">رژیم غذایی</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="{% static 'images/b3.jpg' %}" class="rounded">
+            <div class="card-img-overlay">
+              <h5 class="text-white heading p-2">مربی شخصی</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!--end of sercices  -->
+
+  <!--gallery  -->
+  <section id="gallery" class="pt-5 d-none d-md-block p-0 ">
+    <div class="container-fluid " >
+        <!-- title  -->
+        <div class="row text-center text-black mb-5 justify-content-center">
+          <div class="col-xl-6 col-lg-8 col-md-10">
+            <br>
+            <h3 class="display-5 lalezar">گالری تصاویر</h3>
+            <div class="underline mt-3 mb-5 border border-2 border-secondary"data-aos="zoom-in"data-aos-duration="1000"></div>
+            <p class=" fs-6 text-dark lh1">
+              در این باشگاه مجموعه ای از تجهیزات ورزشی مدرن و حرفه ای و همچنین برنامه های تمرینی ورزشی متنوعی ارائه می شود.
+            </p>
+          </div>
+        </div>
+        <!--end of title  -->
+        <!-- slider  -->
+        <div class="container mx-auto" id="carousel">         
+          <div id="carouselExample" class="carousel slide mx-auto "style="height: 600px;width: 1020px;" >
+            <div class="carousel-inner " id="carouselinner">
+              <div class="carousel-item active">
+                <img src="{% static 'images/gallery1.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery2.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery3.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery4.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery5.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery6.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery7.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery8.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery9.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery10.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/gallery11.jpg' %}" class="d-block " style="height: 600px;width: 1020px;" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--end of slider  -->
+        <!-- pagination  -->
+        <div class="py-3 text-center">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-secondary" for="btnradio1">همه تصاویر</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-secondary" for="btnradio2">مربی‌ها</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-secondary" for="btnradio3">فضای باشگاه</label>
+        </div>
+      </div>
+        <!--end of pagination  -->
+
+    </div>
+  </section>
+  <!--end of gallery  -->
+
+  <!-- wave -->
+  <div class="d-none d-md-block">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="lightgray" fill-opacity="1" d="M0,256L60,218.7C120,181,240,107,360,96C480,85,600,139,720,170.7C840,203,960,213,1080,186.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+</div>
+  <!--end of wave -->
+
+  <!-- plan -->
+  <section id="plans" class="pb-5 pt-3 pt-md-0">    
+      <div class="container ">
+        <br><br><br>
+        <h1 class="lalezar orange text-center">پلن ها</h1>
+        <div class="underline mt-3 mb-4 border mx-auto w-50 border-2 border-secondary"data-aos="zoom-in" data-aos-duration="1000"></div>
+
+        <p class="text-center text-dark pb-5">
+          برخی از امکانات باشگاه تناسب اندام به شرح زیر هستند:
+        </p>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-4 text-center"
+        >
+          
+          <div class="col" data-aos="zoom-in">
+            <div class="card card-bg bg-opacity-100 rounded box-scale shadow">
+              <div class="card-body text-light">
+                <h5 class="fw-bold fs-4 p-3">پلن ماهانه</h5>
+                <p
+                class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+              > 
+              <h6 class="d-inline">5<i class="fas fa-percent "></i> تخفیف</h6>
+
+              /
+                299,000 <sup class="text-danger">تومان</sup>
+              </p>
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 text-light w-75 mx-auto rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">مربی تمرین</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 text-light w-75 mx-auto d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">مربی تغذیه</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 text-light w-75 mx-auto d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">سالن هوازی</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 text-light w-75 mx-auto rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">سالن آبی</span>
+                  </li>
+                </ul>
+                <button class="btn w-75 btn-outline-success">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card card-bg bg-opacity-100 rounded box-scale shadow">
+              <div class="card-body text-light">
+                <h5 class="fw-bold fs-4 p-3">پلن سه ماهه</h5>
+                <p
+                  class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+                > 
+                <h6 class="d-inline">10<i class="fas fa-percent "></i> تخفیف</h6>
+
+                /
+                  799,000 <sup class="text-danger">تومان</sup>
+                </p>
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 text-light w-75 mx-auto rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">مربی تمرین</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 text-light w-75 mx-auto d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">مربی تغذیه</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 text-light w-75 mx-auto d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">سالن هوازی</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 text-light w-75 mx-auto rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">سالن آبی</span>
+                  </li>
+                </ul>
+                <button class="btn w-75 btn-outline-danger">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card card-bg rounded box-scale shadow">
+              <div class="card-body text-light">
+                <h5 class="fw-bold fs-4 p-3">پلن سالانه</h5>
+                <p
+                  class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+                > 
+                <h6 class="d-inline">20<i class="fas fa-percent "></i> تخفیف</h6>
+
+                /
+                 2,100,000 <sup class="text-danger">تومان</sup>
+                </p>
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 text-light w-75 mx-auto rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">مربی تمرین</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 text-light w-75 mx-auto d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">مربی تغذیه</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 text-light w-75 mx-auto d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">سالن هوازی</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 text-light w-75 mx-auto rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">سالن آبی</span>
+                  </li>
+                </ul>
+                <button class="btn w-75 btn-outline-warning">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end of plan -->
+
+  <!-- contact -->
+  <section id="contact" class="contact py-5">
+    <div id="contactSec" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 py-5 p-5 ms-auto position-relative">
+          <span id="element" class="orange ms-2 fs-3 lalezar pb-5" data-aos="fade-up"></span>
+          <div class="form-floating mb-5 text-light">
+            <input type="text" class="form-control text-light" id="floatingInput" placeholder="نام">
+            <label for="floatingInput" class="">نام </label>
+          </div>
+          <div class="form-floating mb-5 text-light">
+            <input type="email" class="form-control text-light" id="floatingEmail" autocomplete="off" placeholder="ایمیل">
+            <label for="floatingEmail" class="">ایمیل</label>
+          </div>
+          <div  class="mb-4 d-flex align-items-center">
+            <input type="checkbox" class="" id="floatingcheck" autocomplete="off" placeholder="">
+            <label for="floatingcheck" class="text-light ms-2">دریافت اطلاعیه ها</label>
+          </div>
+          <div class="d-flex  justify-content-between">
+            <div>
+              <button class="btn btn-outline-light ">ورود</button>
+              <a href="{% static 'register-page/index.html' %}" class=" btn btn-outline-light">ثبت نام</a>
+            </div>
+            <div>
+              <img id="logo-img" src="{% static 'images/logo-img-2.png' %}" alt="">
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    btn btn-outline-light
+
+  </section>
+  <!--end of contact -->
+
+
+
+
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'bootstrap-project/bootstrap.bundle.min.js' %}"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50279c4b79.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+     <script>
+      var typed = new Typed('#element', {
+        strings: ['با ما در ارتباط باشید','با ثبت نام از خدمات ویژه ما برخوردار شوید'],
+        typeSpeed: 50,
+        fadeOut: true,
+    loop: true,
+      });
+    </script>
+     
+  </body>
+</html>
+
+
+
+

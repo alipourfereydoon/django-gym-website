@@ -1,0 +1,48 @@
+img {
+  width: 30px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#face {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin: auto;
+}
+span {
+  display: inline-block;
+  border-style: ridge;
+  border-width: 0px;
+  border-color: gray;
+  background: gray;
+  width: 500px;
+  text-align: center;
+}
+div {
+  box-sizing: border-box;
+  border: solid white 0px;
+  background: white;
+  width: 500px;
+  margin:150px auto;
+  border-radius: 10px;
+}
+p {
+  text-align: center;
+}
+p.name {
+  font-size: 18px;
+  font-family: fantasy;
+  color: darkslategray;
+}
+hr {
+  width: 165px;
+  height: 5px;
+  background: gray;
+  margin-top: -12px;
+}
+body {
+  background: lightgray;
+}

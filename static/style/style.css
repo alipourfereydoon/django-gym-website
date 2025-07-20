@@ -1,0 +1,305 @@
+/* fonts */
+@font-face {
+  font-family: vazir;
+  src: url(../assets/font/Vazir.ttf);
+}
+@font-face {
+  font-family: lalezar;
+  src: url(../assets/font/Lalezar-Regular.ttf);
+}
+body {
+  font-family: "vazir", sans-serif;
+  font-size: 1rem;
+  background-color: #ddd !important;
+}
+.lalezar {
+  font-family: lalezar;
+}
+
+/* utilities */
+.lh1 {
+  line-height: 30px;
+}
+.lh2 {
+  line-height: 35px;
+}
+.lh3 {
+  line-height: 45px;
+}
+.orange {
+  color: orange;
+}
+button.navbar-toggler {
+  background-color: orange;
+}
+/*end of utilities */
+
+/*  header   */
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(../assets/images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav.navbar {
+  background: rgb(6, 6, 6);
+  background: radial-gradient(
+    circle,
+    rgba(42, 26, 16, 0.958420868347339) 0%,
+    rgba(6, 6, 6, 1) 100%
+  );
+}
+@media (max-width: 768px) {
+  #offcanvasNavbar {
+    background: rgb(6, 6, 6);
+    background: radial-gradient(
+      circle,
+      rgba(42, 26, 16, 0.958420868347339) 0%,
+      rgba(6, 6, 6, 1) 100%
+    );
+  }
+}
+.oxy {
+  color: orange;
+  transition: all 0.3s;
+}
+.oxy:hover {
+  color: orangered;
+}
+.offcanvas-body li a {
+  color: #e3d9d9;
+  font-size: 17px;
+  transition: all 0.3s;
+}
+
+.offcanvas-body li:hover a {
+  color: orange;
+  transform: translateY(-2px);
+}
+.offcanvas-body a.active {
+  color: orange !important;
+  transform: translateY(-2px);
+}
+
+/* banner   */
+.banner {
+  letter-spacing: 7px;
+}
+.banner-heading {
+  font-size: 80px;
+}
+.banner-heading span {
+  transition: all 0.3s;
+  font-size: 135px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: orange;
+}
+@media (max-width: 1150px) {
+  .banner-heading {
+    font-size: 50px;
+  }
+  .banner-heading span {
+    font-size: 90px;
+  }
+  .banner-par span {
+    font-size: 28px;
+  }
+  #cap {
+    font-size: 35px;
+  }
+  #carouselExample{
+    width: 900px !important; 
+    height:600px !important ;
+  }
+  #carouselExampleCaptions{
+    width: 900px !important; 
+    height:600px !important ;
+  }
+}
+@media (max-width: 1000px){
+  #carouselExample{
+    width: 700px !important; 
+    height:600px !important ;
+  }
+  #carouselExampleCaptions{
+    width: 700px !important; 
+    height:600px !important ;
+  }
+}
+@media (max-width: 800px) {
+  .banner-heading {
+    font-size: 30px;
+  }
+  .banner-heading span {
+    font-size: 70px;
+  }
+  .banner-par span {
+    font-size: 25px;
+  }
+  .banner-par .first-span {
+    display: block;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .banner-heading {
+    font-size: 25px;
+  }
+  .banner-heading span {
+    font-size: 60px;
+  }
+}
+
+.banner-heading span:hover {
+  color: orangered;
+}
+.banner-heading sub:hover  {
+  color: orangered !important;
+}
+
+
+.banner-par {
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.banner-par #cap {
+  font-size: 70px;
+  color: orange;
+}
+
+/* end of banner   */
+/* end of header   */
+
+/* awards */
+.awards {
+  background: rgb(6, 6, 6);
+  background: linear-gradient(
+    180deg,
+    rgba(6, 6, 6, 1) 0%,
+    rgba(42, 26, 16, 0.908813025210084) 100%
+  );
+}
+.fa-medal,
+.fa-award,
+.fa-trophy {
+  transition: all 0.3s;
+}
+.fa-medal:hover,
+.fa-award:hover,
+.fa-trophy:hover {
+  transform: scale(1.05);
+}
+
+/* end of awards */
+
+/* services */
+#services {
+  background: linear-gradient(
+      rgba(42, 26, 16, 0.6) 0%,
+      rgba(21, 31, 32, 0.9) 100%
+    ),
+    url(../assets/images/gallery4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-shadow {
+  box-shadow: 5px 8px 20px #444;
+}
+.heading {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  font-size: 25px;
+  background-color: #2980b9;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  opacity: 0.7;
+  text-align: center;
+  transition: all 0.4s;
+}
+.heading:hover {
+  opacity: 1;
+  width: 60%;
+}
+/* end of services */
+
+/* plans  */
+#plans {
+  background-color: lightgray;
+}
+.card-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(../assets/images/membership.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+/*end of plans  */
+
+/* contact  */
+.contact {
+  background: linear-gradient(
+      105deg,
+      rgba(21, 31, 32, 0.8) 0%,
+      rgba(21, 31, 32, 0.9) 50%,
+      transparent 50%
+    ),
+    url(../assets/images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#floatingInput,
+#floatingEmail {
+  background: transparent;
+  border: none;
+  border-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border-bottom: 2px groove #ccc;
+  transition: all 0.8s;
+}
+#floatingInput:focus,
+#floatingEmail:focus {
+  background: transparent;
+  border: none;
+  border-color: transparent;
+  box-shadow: none;
+  border-bottom: 2px groove orange;
+}
+#floatingInput:focus {
+  border-right: 2px groove orange;
+  border-bottom-right-radius: 10px;
+}
+#floatingEmail:focus {
+  border-left: 2px groove orange;
+  border-bottom-left-radius: 10px;
+}
+#logo-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+  mix-blend-mode:multiply;
+}
+/*end of contact  */
+
+#index2 {
+  background: linear-gradient(
+      rgba(21, 31, 32, 0.8) 0%,
+      rgba(21, 31, 32, 0.9) 50%
+    ),
+    url(../assets/images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ 
