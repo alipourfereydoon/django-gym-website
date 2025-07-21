@@ -479,23 +479,19 @@
           <div class="d-flex  justify-content-between">
             <div>
               <button class="btn btn-outline-light ">ورود</button>
-              <a href=" {% url "account:account" %}" class=" btn btn-outline-light">ثبت نام</a>
-            </div>
-            <div>
-              <img id="logo-img" src="{% static 'images/logo-img-2.png' %}" alt="">
+              <a href=" {% url "home:register" %}" class=" btn btn-outline-light">ثبت نام</a>
             </div>
         </div>
         </div>
       </div>
     </div>
 
-    btn btn-outline-light
-
   </section>
   <!--end of contact -->
 
 
 {% include "includes/footer_linke.html" %}
+{% include "includes/footer.html" %}
      
   </body>
 </html>

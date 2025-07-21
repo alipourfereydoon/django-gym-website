@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home_app',
     'account_app.apps.AccountConfig',
+    'contactus_app',
 ]
 
 MIDDLEWARE = [
